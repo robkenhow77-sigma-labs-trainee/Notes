@@ -23,11 +23,16 @@ on gitignore use:
 folder_name/* --- this selects everything from a folder
 !folder_name/file.tf --- this selects a file to NOT be ignored
 ```
-
+### Using terraform
+Run terraform init in folder.\
+Run terraform plan to set up changes.\
+Run terraform destroy to destroy resources.
 
 ### Variables
 When using Terraform you will have sensitive information like access_keys.\
-These can be stored (similarly to env variables) using varibales.tf and varibales.tfvars files.
+These can be stored (similarly to env variables) using varibales.tf and terraform.tfvars files.\
+If the .tfvars is not named terraform you will be prompted to enter all the secret variables.\
+You can make it read another file with extra cli inputs, but just name it terraform.tfvars for simplicity.
 
 See variables.tf and variables.tfvars for example
 
