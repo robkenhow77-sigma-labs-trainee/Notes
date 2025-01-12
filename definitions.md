@@ -4,9 +4,17 @@
 - ACID 
 - flavours
 - 3NF
+- DDL
+- DML
 
 ### APIs
+- API
 - REST
+- SSH
+
 
 ### Other
 - CLI
+- CD/CI
+- Nohup &
+- Agile
