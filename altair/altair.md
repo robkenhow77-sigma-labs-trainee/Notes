@@ -58,6 +58,7 @@ chart = alt.Chart(example_df).mark_bar().encode(
     y='miles_per_gallon'
 )
 ```
+
 Types of encoding:
 
 - Quantitative (Q): Represents numerical data (e.g., counts, measures).
@@ -65,6 +66,17 @@ Types of encoding:
 - Nominal (N): Represents unordered categorical data (e.g., names, labels).
 - Temporal (T): Represents date or time data (e.g., timestamps).
 - Geographic (G): Represents geographic data (used in geospatial charts).
+
+### Further encoding axis - alt.X
+
+Using alt.X() allows further customisation, for example labelling axis.
+
+```py
+chart = alt.Chart(example_df).mark_bar().encode(
+    x=alt.X(shorthand='horsepower:Q', title='Horses'),
+    y='miles_per_gallon'
+)
+```
 
 ### Aggregation
 
