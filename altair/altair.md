@@ -257,6 +257,6 @@ alt.Chart(cars).mark_point().encode(
 Notice how the alt.Color references another column in the data frame!
 
 
-### Adjusting chat size
+### Adjusting chart size
 
 See docs for how to adjust size and create sub graphs.
