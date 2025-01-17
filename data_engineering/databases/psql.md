@@ -5,6 +5,6 @@
 
 ### Connect to psql using terminal
 
-```
+```sh
 psql -h <host> -p <port> -U <username> -d <database>
 ```
