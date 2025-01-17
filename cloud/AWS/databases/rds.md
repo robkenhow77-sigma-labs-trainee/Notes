@@ -1,5 +1,7 @@
 # Relational Database
 
+An rds is a relational database. It is good for smaller data sets. For very large datasets use a redshift database.
+
 ### Connect to using psql
 [see docs](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ConnectToPostgreSQLInstance.html)
 ```

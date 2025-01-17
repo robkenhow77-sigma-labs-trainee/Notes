@@ -23,3 +23,14 @@ git add .
 
 Make sure to edit .gitignore fist!\
 This removes everything that is in the git index. ```git add .``` then adds everything back.
+
+### git push -f
+
+If you want to force through a push run `git push -f`\
+This will remove any future commits. eg.
+
+commit_1 -- commit_2 -- commit_3 -- commit_4
+
+roll back to commit 2 and force push:
+
+commit_1 -- commit_2_new
